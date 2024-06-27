@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio Técnico Oficial Samsung - Ubicación</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav-inicio">
+        <div class="title-amcop">
+            <h1 class="tituloamcop">A.M.C.O.P.</h1>
+        </div>
+        <div class="navdiv ms-auto">
+            <div class="labeldiv">
+                <input type="checkbox" id="menu">
+                <label class="etiqueta" for="menu"> ☰ </label>
+                <ul class="lista">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a class="activo" href="ubicacion.html">Ubicación</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="ubicacion">
+        <div class="container">
+            <h2>Ubicación</h2>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Servicio Técnico Oficial Samsung. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap"></script>
+    
+</body>
+</html>
