@@ -355,6 +355,8 @@ input {
     border-radius: 10px;
 }
 
+
+
 .carousel-images {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -392,28 +394,73 @@ input {
         height: 300px;
         object-fit: cover;
     }
+    .imagenes-de-marcas {
+        height: 250px;
+        object-fit: cover;
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 445px) {
     .carousel-item img {
+        height: 200px;
+        object-fit: cover;
+    }
+    .imagenes-de-marcas {
         height: 200px;
         object-fit: cover;
     }
 }
 
+@media (max-width: 325px) {
+    .carousel-item img {
+        height: 150px;
+        object-fit: cover;
+    }
+    .imagenes-de-marcas {
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .imagenes-de-marcas {
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 295px) {
+    .carousel-item img {
+        height: 100px;
+        object-fit: cover;
+    }
+    .imagenes-de-marcas {
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+.imagenes-de-marcas {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
 
 /* Div serivico tecnico */
-@media (min-width: 340px) {
 
-    }
     .div-servicio-tecnico{
         width: 600px;
-    }
+        }
 
     .servicio-tecnico{
         padding-top: 150px;
         text-align: center;
-    }
+        }   
+
+
 
 
 /*Servicios*/
