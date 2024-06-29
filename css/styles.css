@@ -552,4 +552,99 @@ input {
     margin-bottom: 0;
 }
 
+/*Contactos*/
 
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 45px 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1100px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 40px !important;
+    }
+}
+
+.divh1 {
+    height: 200px;
+    width: 280px;
+    display: flex;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 3px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: 300ms;
+    font-family: 'Poppins';
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 4);
+}
+
+.cajas-contacto:hover {
+    background-color: white;
+    transition: 300ms;
+    transform: scale(1.03);
+}
+
+.cajas-contacto{
+    max-width: 100%; /* Mantén el ancho al 100% */
+    height: 100px;
+    width: 290px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    transition: 300ms;
+    border: 1px solid #aaa;
+    padding: 35px 0px;
+    flex-wrap: wrap;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.no-link-style a {
+    color: inherit; /* Hereda el color del elemento padre */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+.no-link-style a:hover {
+    color: inherit; /* Hereda el color del elemento padre al pasar el cursor */
+    text-decoration: none; /* Asegura que no haya subrayado al pasar el cursor */
+}
+
+@media (max-width: 356px) {
+    .cajas-contacto{
+        max-width: 100%; /* Mantén el ancho al 100% */
+        height: 100px;
+        width: 200px;
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        transition: 300ms;
+        border: 1px solid #aaa;
+        padding: 35px 0px;
+        flex-wrap: wrap;
+        font-size: 25px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
