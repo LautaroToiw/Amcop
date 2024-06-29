@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Dirección de correo a la que quieres recibir los mensajes
-    $destinatario = "lautarotoiw@gmail.com"; // Cambia esta línea por la dirección de correo a la que deseas recibir los mensajes
+    $destinatario = "consultas@amcop.com.ar"; // Cambia esta línea por la dirección de correo a la que deseas recibir los mensajes
 
     // Asunto del correo
     $asunto = "Mensaje de contacto desde mi sitio web";
